@@ -1,0 +1,53 @@
+.title {
+    margin-top: 45px;
+    color: #343030;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    height: 36px;
+}
+
+.info {
+    color: #343030;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    height: 36px;
+    margin-bottom: 20px;
+}
+.valueType {
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.input{
+    font-family: Merriweather;
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(179, 179, 179);
+    padding-left: 10px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    width: 416px;
+    height: 48px;
+    background: #403432;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}

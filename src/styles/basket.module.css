@@ -1,0 +1,27 @@
+.title  {
+    margin-top: 45px;
+    color: #343030;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    height: 36px;
+    width: 390px;
+}
+.emptyBasket {
+    color: #343030;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    height: 36px;
+    width: 390px;
+}
+.paintingGrid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 320px;
+}
