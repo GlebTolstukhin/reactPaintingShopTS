@@ -47,18 +47,6 @@
       },
       "discount": 0.25,
       "id": "4"
-    },
-    {
-      "type": "painting",
-      "paintingName": "уауца",
-      "authorFullName": "уцацу",
-      "status": "available",
-      "price": {
-        "value": 12321,
-        "currencyCode": "USD"
-      },
-      "discount": null,
-      "id": "2h7Bnkx"
     }
   ]
 }
