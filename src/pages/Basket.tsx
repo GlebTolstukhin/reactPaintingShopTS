@@ -29,7 +29,7 @@ const Basket: FC<IBasket> = () => {
     return (
         <div>
             <h2 className={basketS.title}>Моя карзина</h2>
-            {!paintingList.length ? <div className={basketS.emptyBasket}>Карзина все еще пуста</div> : ""}
+            {!paintingList.length ? <div className={basketS.emptyBasket}>Корзина все еще пуста</div> : ""}
             <div className={basketS.paintingGrid}>
                 {paintingList.map(painting => <Painting parantComponent="basket"
                     handleUpdated={handleUpdated} key={painting.id} painting={painting}/>)}

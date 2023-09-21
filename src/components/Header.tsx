@@ -44,7 +44,7 @@ const Header: FC<IHeaderProps> = () => {
                             <img src={logoLigh} alt="" />
                         </NavLink>
                         <NavLink className={isActive} to={"/"}>Каталог</NavLink>
-                        <NavLink className={isActive} to={"/basket"}>Карзина</NavLink>
+                        <NavLink className={isActive} to={"/basket"}>Корзина</NavLink>
                         <NavLink className={isActive} to={"/yourPainting"}>Пледложить картину</NavLink>
                         <NavLink className={isActive} to={"/contacts"}>Контакты</NavLink>
                         <NavLink className={isActive} to={"/about"}>О галерее</NavLink>
@@ -68,7 +68,7 @@ const Header: FC<IHeaderProps> = () => {
                                 <img src={logoDark} alt="" />
                             </NavLink>
                             <NavLink className={isActive} to={"/"}>Каталог</NavLink>
-                            <NavLink className={isActive} to={"/basket"}>Карзина</NavLink>
+                            <NavLink className={isActive} to={"/basket"}>Корзина</NavLink>
                             <NavLink className={isActive} to={"/yourPainting"}>Пледложить картину</NavLink>
                             <NavLink className={isActive} to={"/contacts"}>Контакты</NavLink>
                             <NavLink className={isActive} to={"/about"}>О галерее</NavLink>
